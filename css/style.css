@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins;
+    background-color: #F9FAFB;
+}
+.side_left{
+    position: fixed;
+}
+.container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 345px;
+    height: 100vh;
+    overflow: hidden; 
+    background-color: #fff;
+}
+
+.small-block {
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1; 
+}
+
+.large-block {
+    top: 0;left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    z-index: 0;
+    
+}
+
+.logo{
+    display: flex;
+    margin: 50px 45px;
+    gap: 6px;
+    align-items: center;
+}
+
+.logo__img{
+    width: 56px;
+    height: 56px;
+}
+
+.logo_text{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: left;
+    text-decoration: none;
+     color: #151D48;
+}
+.menu{
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+}
+.menu_title{
+    width: 252px;
+    height: 64px;
+    display: flex;
+    border: 1px solid #fff;
+    align-items: center;
+    text-decoration: none;
+    padding: 16px 24px 16px 24px;
+    gap: 24px;
+    border-radius: 16px;
+    color: #737791;
+    transition: all 0.8s linear;
+    cursor: pointer;
+}
+
+.menu_title:hover{
+    color: #fff;
+    background-color: #5D5FEF;
+    border: 1px solid;
+    
+}
+
+.box{
+    background-image: url(../image/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 238px;
+    height: 291px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    text-align: center;
+    margin: 118px auto;
+}
+.logo_pro_img{
+    width: 48px;
+    height: 48px;
+    display: block;
+    margin-left: 95.5px;
+    margin-top: 31.5px;
+
+}
+
+.logo_pro{
+    font-family: Poppins;
+    margin-top: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.box p{
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 38.5px;
+}
+
+.box .button{
+    width: 136px;
+    text-decoration: none;
+    height: 50px;
+    padding: 8px 38.5px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #5D5FEF;
+    border: 1px solid #fff;
+    transition: all .7s linear;
+}
+.box .button:hover{
+    background-color: #5D5FEF;
+    color: #fff;
+}
+
+
+/* header */
+
+
+header{
+    margin-left: 345px;
+    color: #fff;
+
+}
+
+header .container{
+    margin-left: 345px;
+    position: fixed;
+    width: 1192px;
+    display: flex;
+    height: 120px;
+    padding: 30px 0 30px 40px;
+}
+
+.logo_title{
+    font-family: Poppins;
+    display: flex;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: left;
+    color: #151D48;
+    text-decoration: none;
+      
+}
+
+.search{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    padding: 2px 32px 2px 24px;
+    border-radius: 16px;
+     background-color: #f2f3f3;
+}
+i{
+    color: #5D5FEF;
+}
+input{
+    font-family: Poppins;
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #737791;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.language{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    width: 189px;
+    height: 60px;
+    gap: 16px;
+}
+
+.language select{
+    border: none;
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+     
+}
+.container_admin{
+    display: flex;
+    align-items: center;
+}
+.bell{
+    width: 48px;
+    height: 48px;
+}
+.man{
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.admin{
+    width: 146px;
+    height: 48px;
+}
+.admin{
+    display: flex;
+    align-items: start;
+}
+.admin select{
+    border: none;
+}
+
+section{
+    padding-top: 150px;
+    margin-left: 375px;
+}
